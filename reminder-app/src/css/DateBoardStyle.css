@@ -1,0 +1,59 @@
+.date-table {
+    width: 100%;
+    height: max-content;
+    border-collapse: collapse;
+    position: relative;
+}
+
+/*
+total height of thead is 100px
+*/
+.date-table th {
+    width: 100%/7;
+    padding: 20px 0px;
+    height: 100px;
+}
+
+.date-table>thead {
+    position: sticky;
+    top: 65px;
+    width: 100%;
+    background-color: white;
+}
+
+.date-table>thead>tr>th label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.date-table>tbody>tr>td {
+    text-align: center;
+    height: 75px;
+    border: solid 1px rgb(209, 209, 209);
+}
+
+.date-table>tbody>tr:first-child>td {
+    border-top: none;
+}
+
+.date-table>tbody>tr>td:last-child {
+    border-right: none;
+}
+
+.date-table>thead>tr>th label:first-child {
+    color: grey;
+    font-weight: 300;
+
+}
+
+.date-table>thead>tr>th label:last-child {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.isToday {
+    color: rgba(76, 121, 255, 0.931);
+    font-weight: 800 !important;
+
+}

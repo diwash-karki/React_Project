@@ -1,0 +1,42 @@
+/*
+TOTAL HEIGHT OF THE COMPONENET IS 70PX
+*/
+
+.button-switch-holder {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.button-switch-holder button {
+    display: block;
+    padding: 10px 10px;
+    height: 50px;
+    width: 50px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.button-switch-holder button:hover {
+
+    background-color: rgba(0, 0, 0, 0.049);
+}
+
+.today-txt {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    justify-content: center;
+    width: 100px;
+    border-radius: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.196);
+    transition: 0.1s;
+}
+
+.today-txt:hover {
+    background-color: rgba(0, 0, 0, 0.022);
+}
