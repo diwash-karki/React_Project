@@ -39,6 +39,8 @@ const Instagram = (props) => {
             console.log('userInfo from localStorage', userInfo);
             return true;
         }
+
+        return true
         const url = "https://instagram-bulk-profile-scrapper.p.rapidapi.com/clients/api/ig/ig_profile?ig=" + props.username + "&response_type=short&corsEnabled=false";
         const options = {
             method: 'GET',

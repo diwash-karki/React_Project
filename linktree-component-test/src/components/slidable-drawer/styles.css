@@ -1,5 +1,5 @@
 .drawer {
-    position: absolute !important;
+    position: fixed !important;
     width: 100% !important;
     bottom: 0px !important;
     margin: 0 !important;
@@ -19,7 +19,7 @@
 }
 .drawer__content>*{
     position: absolute !important;
-    bottom: 0px !important;
+    bottom: -10px !important;
     width: 50% !important;
    
 } 
