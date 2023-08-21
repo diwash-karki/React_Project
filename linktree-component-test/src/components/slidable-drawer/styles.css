@@ -1,0 +1,32 @@
+.drawer {
+    position: absolute !important;
+    width: 100% !important;
+    bottom: 0px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.drawer__content {
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 500px;
+    width: 100% !important;
+    height: auto;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+.drawer__content>*{
+    position: absolute !important;
+    bottom: 0px !important;
+    width: 50% !important;
+   
+} 
+
+@media screen and (max-width: 500px) {
+    .drawer__content>*{
+        width: 100% !important;
+    }
+}
+    

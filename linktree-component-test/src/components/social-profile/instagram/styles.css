@@ -1,0 +1,52 @@
+
+
+.instagram-profile-btn-slider {
+    position: relative;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 80px;
+    width: calc(100% - 40px);
+}
+
+.instagram-profile-btn-slider::before {
+    content: '';
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.instagram-profile-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgba(255, 255, 255, 0.273);
+}
+
+.instagram-profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.instagram-profile-fullname {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+
+.instagram-profile-username {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.556);
+}
+
+
